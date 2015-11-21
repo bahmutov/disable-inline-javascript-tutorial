@@ -1,0 +1,29 @@
+{
+  "name": "disable-inline-javascript-tutorial",
+  "version": "1.0.0",
+  "description": "Source code showing how to disable inlined JavaScript using ExpressJS JS to JS template engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/disable-inline-javascript-tutorial.git"
+  },
+  "keywords": [
+    "express",
+    "expressjs",
+    "middleware",
+    "security",
+    "template",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/disable-inline-javascript-tutorial/issues"
+  },
+  "homepage": "https://github.com/bahmutov/disable-inline-javascript-tutorial#readme",
+  "private": true
+}
