@@ -4,7 +4,8 @@
   "description": "Source code showing how to disable inlined JavaScript using ExpressJS JS to JS template engine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -s index.html -s insecure-page.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
     "url": "https://github.com/bahmutov/disable-inline-javascript-tutorial/issues"
   },
   "homepage": "https://github.com/bahmutov/disable-inline-javascript-tutorial#readme",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "0.5.0"
+  }
 }
