@@ -3,12 +3,24 @@
 <head>
   <title>Insecure page</title>
   <style>
-    textarea#goodInput {
-      width: 200px;
-      height: 50px;
+    textarea {
+      width: 600px;
+      height: 80px;
       border-radius: 5px;
+      font-size: large;
+    }
+    button {
+      font-size: large;
+      font-weight: bold;
+    }
+    #linkGoodInput {
+      background-color: lightGreen;
+    }
+    #linkBadInput {
+      background-color: lightPink;
     }
   </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
   <h1>Inline javascript is a security risk</h1>
@@ -24,6 +36,14 @@
     readonly="readonly">this is a <strong>tag</strong> and this is <em>emphasized</em>.</textarea>
   <br>
   <button id="linkGoodInput">Link good input to DOM</button>
+  </p>
+
+  <p>Good feature used by an evil attacker</p>
+  <textarea id="badInput"
+    readonly="readonly">this is a <strong>tag</strong> and my script.
+    Run it from your page <script>alert('You have been hacked')</script>.</textarea>
+  <br>
+  <button id="linkBadInput">Link bad input to DOM</button>
   </p>
 
   <script src="insecure-page.js"></script>
