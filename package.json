@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -s index.html -s insecure-page.js"
+    "deploy": "gh-pages -d insecure-demo"
   },
   "repository": {
     "type": "git",
