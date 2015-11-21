@@ -17,11 +17,15 @@
   and then execute any source code on the page</p>
 
   <h2>Attack example</h2>
-  <p>Good feature - allow the user to enter text markup and then add it to the DOM</p>
+  <p>Good feature - allows the user to enter text markup and then add it to the DOM.
+  The text area is read-only for this demo. Click the button below to link this text into
+  the page. Notice the markup is respected.</p>
   <textarea id="goodInput"
     readonly="readonly">this is a <strong>tag</strong> and this is <em>emphasized</em>.</textarea>
   <br>
   <button id="linkGoodInput">Link good input to DOM</button>
   </p>
+
+  <script src="insecure-page.js"></script>
 </body>
 </html>
