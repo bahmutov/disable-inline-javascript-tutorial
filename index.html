@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Insecure page</title>
+  <style>
+    textarea#goodInput {
+      width: 200px;
+      height: 50px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Inline javascript is a security risk</h1>
+  <p>This page allows inline javascript, like the <pre>&lt;script&gt;some code&lt;/script&gt;</pre></p>
+  <p>This is very insecure, because someone unsanitized use input might insert a script tag
+  and then execute any source code on the page</p>
+
+  <h2>Attack example</h2>
+  <p>Good feature - allow the user to enter text markup and then add it to the DOM</p>
+  <textarea id="goodInput"
+    readonly="readonly">this is a <strong>tag</strong> and this is <em>emphasized</em>.</textarea>
+  <br>
+  <button id="linkGoodInput">Link good input to DOM</button>
+  </p>
+</body>
+</html>
