@@ -2,11 +2,19 @@
 
 > Source code showing how to disable inlined JavaScript using ExpressJS JS to JS template engine
 
-You can check out the insecure page that allows inline JavaScript [here][insecure demo].
+You can check out the insecure page that allows inline JavaScript [here][insecure demo]
+and the [secured page here][secured page demo].
 
 [insecure demo]: http://glebbahmutov.com/disable-inline-javascript-tutorial/
+[secured page demo]: http://glebbahmutov.com/disable-inline-javascript-tutorial/index-secure.html
+
+### Insecure page allows script injection
 
 ![insecure demo result](insecure-demo/insecure-demo-result.png)
+
+### Secured page with CSP does not allow inline scripts
+
+![secure demo result](insecure-demo/secure-page-does-not-script.png)
 
 ### Small print
 
