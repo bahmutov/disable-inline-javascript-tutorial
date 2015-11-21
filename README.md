@@ -2,6 +2,10 @@
 
 > Source code showing how to disable inlined JavaScript using ExpressJS JS to JS template engine
 
+You can check out the insecure page that allows inline JavaScript [here][insecure demo].
+
+[insecure demo]: http://glebbahmutov.com/disable-inline-javascript-tutorial/
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2015
