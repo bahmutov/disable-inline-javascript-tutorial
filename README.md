@@ -6,6 +6,8 @@ You can check out the insecure page that allows inline JavaScript [here][insecur
 
 [insecure demo]: http://glebbahmutov.com/disable-inline-javascript-tutorial/
 
+![insecure demo result](insecure-demo/insecure-demo-result.png)
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2015
