@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Secure page</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src https://code.jquery.com 'self';">
   <style>
     textarea {
       width: 600px;
@@ -23,6 +24,8 @@
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+  <p>For comparison, see the same page but without CSP <a href="index-secure.html">index.html</a></p>
+
   <h1>This page does NOT allow inline JavaScript using CSP</h1>
 
   <h2>Attack example</h2>
