@@ -21,3 +21,10 @@
 
   console.log('insecure-page script finished');
 }());
+
+(function installErrorHandlerIfAvailable() {
+  if (typeof Raygun === 'object') {
+    console.log('using Raygun error handler');
+    Raygun.init('no-api-key-needed-just-a-demo').attach();
+  }
+}());
