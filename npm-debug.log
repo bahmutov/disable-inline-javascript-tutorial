@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/Users/gleb/.nvm/versions/node/v0.12.7/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'issues' ]
+2 info using npm@3.3.9
+3 info using node@v0.12.7
+4 verbose stack Error: missing script: issues
+4 verbose stack     at run (/Users/gleb/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/run-script.js:148:19)
+4 verbose stack     at /Users/gleb/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/run-script.js:58:5
+4 verbose stack     at /Users/gleb/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+4 verbose stack     at checkBinReferences_ (/Users/gleb/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/read-package-json/read-json.js:309:45)
+4 verbose stack     at final (/Users/gleb/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/read-package-json/read-json.js:343:3)
+4 verbose stack     at then (/Users/gleb/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+4 verbose stack     at /Users/gleb/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/read-package-json/read-json.js:300:12
+4 verbose stack     at /Users/gleb/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16
+4 verbose stack     at fs.js:334:14
+4 verbose stack     at /Users/gleb/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:42:10
+5 verbose cwd /Users/gleb/git/disable-inline-javascript-tutorial/insecure-demo
+6 error Darwin 14.1.0
+7 error argv "node" "/Users/gleb/.nvm/versions/node/v0.12.7/bin/npm" "run" "issues"
+8 error node v0.12.7
+9 error npm  v3.3.9
+10 error missing script: issues
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
